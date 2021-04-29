@@ -13,6 +13,15 @@
 		1411E585263A9880006C3048 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1411E584263A9880006C3048 /* Preview Assets.xcassets */; };
 		1411E590263A9880006C3048 /* HarshCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411E58F263A9880006C3048 /* HarshCardTests.swift */; };
 		1411E59B263A9880006C3048 /* HarshCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411E59A263A9880006C3048 /* HarshCardUITests.swift */; };
+		1411E5B2263A9BA6006C3048 /* robotomono-italic-variable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1411E5B1263A9BA6006C3048 /* robotomono-italic-variable.ttf */; };
+		1411E5B3263A9BA6006C3048 /* robotomono-italic-variable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1411E5B1263A9BA6006C3048 /* robotomono-italic-variable.ttf */; };
+		1411E5B4263A9BA6006C3048 /* robotomono-italic-variable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1411E5B1263A9BA6006C3048 /* robotomono-italic-variable.ttf */; };
+		1411E5B6263A9BB0006C3048 /* robotomono-variable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1411E5B5263A9BB0006C3048 /* robotomono-variable.ttf */; };
+		1411E5B7263A9BB0006C3048 /* robotomono-variable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1411E5B5263A9BB0006C3048 /* robotomono-variable.ttf */; };
+		1411E5B8263A9BB0006C3048 /* robotomono-variable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1411E5B5263A9BB0006C3048 /* robotomono-variable.ttf */; };
+		1411E5BA263AA430006C3048 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411E5B9263AA430006C3048 /* InfoView.swift */; };
+		1411E5BB263AA430006C3048 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411E5B9263AA430006C3048 /* InfoView.swift */; };
+		1411E5BC263AA430006C3048 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1411E5B9263AA430006C3048 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +54,9 @@
 		1411E596263A9880006C3048 /* HarshCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarshCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1411E59A263A9880006C3048 /* HarshCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarshCardUITests.swift; sourceTree = "<group>"; };
 		1411E59C263A9880006C3048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1411E5B1263A9BA6006C3048 /* robotomono-italic-variable.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "robotomono-italic-variable.ttf"; sourceTree = "<group>"; };
+		1411E5B5263A9BB0006C3048 /* robotomono-variable.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "robotomono-variable.ttf"; sourceTree = "<group>"; };
+		1411E5B9263AA430006C3048 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +107,13 @@
 		1411E57C263A987E006C3048 /* HarshCard */ = {
 			isa = PBXGroup;
 			children = (
+				1411E5A8263A9B01006C3048 /* fonts */,
 				1411E57D263A987E006C3048 /* HarshCardApp.swift */,
 				1411E57F263A987E006C3048 /* ContentView.swift */,
 				1411E581263A9880006C3048 /* Assets.xcassets */,
 				1411E586263A9880006C3048 /* Info.plist */,
 				1411E583263A9880006C3048 /* Preview Content */,
+				1411E5B9263AA430006C3048 /* InfoView.swift */,
 			);
 			path = HarshCard;
 			sourceTree = "<group>";
@@ -128,6 +142,15 @@
 				1411E59C263A9880006C3048 /* Info.plist */,
 			);
 			path = HarshCardUITests;
+			sourceTree = "<group>";
+		};
+		1411E5A8263A9B01006C3048 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1411E5B5263A9BB0006C3048 /* robotomono-variable.ttf */,
+				1411E5B1263A9BA6006C3048 /* robotomono-italic-variable.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +256,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1411E5B6263A9BB0006C3048 /* robotomono-variable.ttf in Resources */,
 				1411E585263A9880006C3048 /* Preview Assets.xcassets in Resources */,
+				1411E5B2263A9BA6006C3048 /* robotomono-italic-variable.ttf in Resources */,
 				1411E582263A9880006C3048 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +267,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1411E5B7263A9BB0006C3048 /* robotomono-variable.ttf in Resources */,
+				1411E5B3263A9BA6006C3048 /* robotomono-italic-variable.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +276,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1411E5B8263A9BB0006C3048 /* robotomono-variable.ttf in Resources */,
+				1411E5B4263A9BA6006C3048 /* robotomono-italic-variable.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1411E580263A987E006C3048 /* ContentView.swift in Sources */,
+				1411E5BA263AA430006C3048 /* InfoView.swift in Sources */,
 				1411E57E263A987E006C3048 /* HarshCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1411E5BB263AA430006C3048 /* InfoView.swift in Sources */,
 				1411E590263A9880006C3048 /* HarshCardTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1411E5BC263AA430006C3048 /* InfoView.swift in Sources */,
 				1411E59B263A9880006C3048 /* HarshCardUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
